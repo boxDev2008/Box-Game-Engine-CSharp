@@ -75,7 +75,7 @@ We put these in the ```MainSandbox``` class.
 We need to go to our ```MainSandbox``` class and create a new ```OnDraw``` function.
 Make sure you are ```using BoxEngine.Graphics;```.
 
-Inside of the ```OnDraw``` function in the ```MainSandbox``` class type the following:
+Inside of the ```OnDraw``` function type the following:
 ```GameRenderer.DrawRectangle2D(0f, 0f, 20f, 20f, 0.5f, 0.5f, 45f, Color.White);```
 
 - The first 2 parameters represent the position.
