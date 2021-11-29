@@ -40,3 +40,16 @@ GameSandbox gameSandbox = new MainSandbox();
 ##Last - Create the Application.
 Now we just need to initialize the ```GameApplication``` class like this:
 ```GameApplication game = new GameApplication(window, gameSandbox);```
+
+# Drawing on the screen
+## Shapes
+We need to go to our ```MainSandbox``` class and create a new ```OnDraw``` function.
+Make sure you are ```using BoxEngine.Graphics;```.
+```cs 
+    public override void OnDraw()
+    {
+	    
+    }
+```
+Inside of the function type the following:
+```GameRenderer.DrawRectangle2D(0f, 0f, 20f, 20f, 0.5f, 0.5f, 45f, Color.White);```
