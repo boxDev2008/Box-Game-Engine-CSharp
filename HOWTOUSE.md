@@ -1,3 +1,6 @@
+### Requirements
+# You will need to have .NET 6 SDK installed on your pc.
+
 ### Create the Game Application
 
 Open the ```Program.cs``` file.
@@ -32,3 +35,7 @@ After this we initialize the ```MainSandbox``` class by going back to where we w
 ```cs 
 GameSandbox gameSandbox = new MainSandbox();
 ```
+
+##Last - Create the Application.
+Now we just need to initialize the ```GameApplication``` class like this:
+```cs GameApplication game = new GameApplication(window, gameSandbox);```
