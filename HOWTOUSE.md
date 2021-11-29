@@ -1,7 +1,7 @@
-### Requirements
-# You will need to have .NET 6 SDK installed on your pc.
+# Requirements
+### You will need to have .NET 6 SDK installed on your pc.
 
-### Create the Game Application
+# Create the Game Application
 
 Open the ```Program.cs``` file.
 
