@@ -7,6 +7,7 @@ Open the ```Program.cs``` file.
 
 ## First - Create a window.
 We use the ```WindowFrame``` class to represent our window and you can create on like this:
+
 ```WindowFrame window = new WindowFrame();```
 
 We can also fill some aditional information about the window like this example:
