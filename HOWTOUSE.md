@@ -83,6 +83,3 @@ Inside of the ```OnDraw``` function type the following:
 - The third 2 parameters represent the pivot.
 - The fourth parameter represents the angle.
 - The last parameter represents the Color.
-
-You should be getting something like this:
-![result1](https://imgur.com/a/32HAImO)
