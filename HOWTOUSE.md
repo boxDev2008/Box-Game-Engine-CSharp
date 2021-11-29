@@ -41,15 +41,43 @@ GameSandbox gameSandbox = new MainSandbox();
 Now we just need to initialize the ```GameApplication``` class like this:
 ```GameApplication game = new GameApplication(window, gameSandbox);```
 
-# Drawing on the screen
-## Shapes
-We need to go to our ```MainSandbox``` class and create a new ```OnDraw``` function.
-Make sure you are ```using BoxEngine.Graphics;```.
+# Setting up the gameplay loop
+There are 3 main functions that we will use in this tutorial.
+
+Called at the start of the game:
+```cs 
+    public override void OnStart()
+    {
+	    
+    }
+```
+
+Called every update frame:
+```cs 
+    public override void OnUpdate()
+    {
+	    
+    }
+```
+
+Called every draw frame:
 ```cs 
     public override void OnDraw()
     {
 	    
     }
 ```
-Inside of the function type the following:
+
+# Drawing on the screen
+## Shapes
+We need to go to our ```MainSandbox``` class and create a new ```OnDraw``` function.
+Make sure you are ```using BoxEngine.Graphics;```.
+
+Inside of the ```OnDraw``` function in the ```MainSandbox``` class type the following:
 ```GameRenderer.DrawRectangle2D(0f, 0f, 20f, 20f, 0.5f, 0.5f, 45f, Color.White);```
+
+- The first 2 parameters represent the position.
+- The second 2 parameters represent the scale.
+- The third 2 parameters represent the pivot.
+- The fourth parameter represents the angle.
+- The last parameter represents the Color.
