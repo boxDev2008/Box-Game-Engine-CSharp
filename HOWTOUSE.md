@@ -68,6 +68,8 @@ Called every draw frame:
     }
 ```
 
+We put these in the ```MainSandbox``` class.
+
 # Drawing on the screen
 ## Shapes
 We need to go to our ```MainSandbox``` class and create a new ```OnDraw``` function.
